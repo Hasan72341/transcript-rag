@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vim
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mac
+.DS_Store
+transcript-rag.zip
+
+# Other
+.vscode
+*.tsv
+*.pt
+gpt*.txt
+*.env
+local/
+local_*
+build/
+*.egg-info/
+!/data/*.json
+/dist/
+checklist.md
+finetuning_ckpts/
+* copy*
+.idea
+assertion.log
+*.log
+*.db
+
+*.zip
+# Ignore images directory
+images/
+
+# Local runtimes and downloaded model artifacts
+.venv/
+.pytest_cache/
+model-gptoss/
+huggingface/
