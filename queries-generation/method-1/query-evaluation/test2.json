@@ -1,0 +1,27 @@
+{
+    "task2_queries": [
+    {
+      "task": "Task 2 - Contextual Follow-up",
+      "domain": "Filght",
+      "business_event": "Churn intent signals",
+      "task1_query": "Count the number of calls with churn intent signals for each flight route (origin to destination) over the past 90 days to identify which routes have the highest churn signal frequency.",
+      "task1_analysis_type": "Descriptive - Pattern Identification",
+      "follow_up_type": "Evidence Retrieval",
+      "follow_up_query": "For the top 3 routes with the highest churn signal frequency identified in Task 1, retrieve the actual call transcripts and agent notes for those calls to verify whether the churn intent signals were correctly detected and understand the specific customer concerns mentioned.",
+      "difficulty": "MEDIUM",
+      "context_dependency": "high",
+      "analytical_progression": "deepening"
+    },
+    {
+      "task": "Task 2 - Contextual Follow-up",
+      "domain": "Filght",
+      "business_event": "Churn intent signals",
+      "task1_query": "Count the number of calls with churn intent signals for each flight route (origin to destination) over the past 90 days to identify which routes have the highest churn signal frequency.",
+      "task1_analysis_type": "Descriptive - Pattern Identification",
+      "follow_up_type": "Contextual Follow-Up",
+      "follow_up_query": "For the top three routes you just identified with the highest churn signal frequency, compare their average ticket prices and load factors over the same 90-day period to see if price sensitivity or capacity pressure correlates with churn intent.",
+      "difficulty": "MEDIUM",
+      "context_dependency": "medium",
+      "analytical_progression": "deepening"
+    }]
+}

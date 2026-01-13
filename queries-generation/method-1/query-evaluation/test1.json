@@ -1,0 +1,19 @@
+{
+    "analytical_queries": [
+    {
+      "domain": "Retail",
+      "business_event": "Payment failures",
+      "mece_category": "Comparative",
+      "subcategory": "Agent Performance Comparison",
+      "query": "Which agents achieve the lowest payment failure resolution time and highest success rate, and how do their average number of transfer steps, policy references, and escalation counts differ from agents with the highest resolution time, controlling for customer segment, payment method, and call duration?",
+      "difficulty": "HARD"
+    },
+    {
+      "domain": "Hotel",
+      "business_event": "Fraud suspicion/confirmation",
+      "mece_category": "Diagnostic",
+      "subcategory": "Emotional & Linguistic Causality",
+      "query": "Determine which combinations of customer emotional states (e.g., anger, confusion, urgency) and specific linguistic cues (e.g., use of terms like \"charge\", \"refund\", \"dispute\", or repeated requests for policy clarification) are most predictive of a fraud suspicion or confirmation, and how these cues interact with agent responses, policy code references, and call timing to trigger the fraud flag.",
+      "difficulty": "HARD"
+    }]
+}
