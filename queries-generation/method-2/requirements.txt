@@ -1,0 +1,8 @@
+groq>=0.4.0
+python-dotenv>=1.0.0
+bert-score>=0.3.13 
+spacy>=3.0.0
+textstat>=0.7.2
+sentence-transformers
+scikit-learn>=1.2.0
+tqdm>=4.64.0
