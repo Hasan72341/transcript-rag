@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+    /* slightly off-white base so the mesh is visible */
+    --background: #f8fafc;
+    --foreground: #171717;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --font-ubuntu: var(--font-ubuntu-mono);
+}
+
+body {
+    /* @apply bg-gray-50/50; */
+    font-family: var(--font-ubuntu) !important;
+    letter-spacing: -0.025em;
+}
+
+.matrix {
+    /* Use a subtle cross-box / mesh background using two linear-gradients
+       to create thin horizontal and vertical lines. Adjust background-size
+       to change the mesh cell size. */
+    background-color: var(--background);
+    background-image: linear-gradient(rgba(2, 6, 23, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(2, 6, 23, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px, 20px 20px;
+    background-position: 0 0, 0 0;
+    color: var(--foreground);
+}
